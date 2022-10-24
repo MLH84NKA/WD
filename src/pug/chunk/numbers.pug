@@ -1,0 +1,12 @@
+mixin statistic(imgpath, number, text)
+    .numbers__body 
+        img(class='numbers__img' src= imgpath, alt="statistic")
+        .numbers__value
+            p= number
+            p= text
+
+section.numbers
+    .numbers__wrap
+        - for (var i=0; i<6; i++)
+            +statistic('img/project.svg', '40+' , 'проектов')
+    

@@ -1,0 +1,40 @@
+.skills {
+    margin: 100px 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__image {
+        max-width: 555px;
+        max-height: 450px;
+    }
+}
+
+.attainments {
+    &__title {
+        font-weight: 500;
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    &__item {
+        color: #727272;
+        margin-bottom: 30px;
+    }
+}
+
+.progress-bar {
+    background: #C4C4C4;
+    width: 445px;
+    height: 4px;
+    margin-top: 20px;
+    &__subbar {
+        background: #34547A;
+        height: 4px;
+        width: 350px;
+        z-index: 1;
+    }
+}

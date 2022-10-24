@@ -1,0 +1,22 @@
+mixin projects(path1, path2, count)
+    while (count != 0)
+        li.projects-list__item
+        
+            if count % 2 == 0
+                .projects-list__wrapper
+                    img(class='projects-list__img', src= path1, alt="projectsImage1")
+                    .projects-list__overlap
+                        img(src='img/view.svg')
+            else
+                .projects-list__wrapper 
+                    img(class='projects-list__img', src= path2, alt="projectsImage2")
+                    .projects-list__overlap
+                        img(src='img/view.svg')
+            -count --
+
+
+section.projects 
+    .projects__wrapper 
+        ul.projects-list  
+            +projects('img/taskboard.jpg', 'img/work.jpg', 4)
+            +projects('img/work.jpg', 'img/taskboard.jpg', 4)

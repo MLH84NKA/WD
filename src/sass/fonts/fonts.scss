@@ -1,0 +1,25 @@
+@font-face {
+    font-family: revalia;
+    /* Имя шрифта */
+    src: url(../font/revalia.woff) format('woff'),
+    url(../font/revalia.ttf) format('truetype');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: roboto;
+    /* Имя шрифта */
+    src: url(../font/roboto-regular.woff) format('woff'),
+    url(../font/roboto-regular.ttf) format('truetype');
+    font-weight: 400;
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: roboto;
+    /* Имя шрифта */
+    src: url(../font/roboto-medium.woff) format('woff'),
+    url(../font/roboto-medium.ttf) format('truetype');
+    font-weight: 500;
+    /* Путь к файлу со шрифтом */
+}

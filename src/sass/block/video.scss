@@ -1,0 +1,30 @@
+.video {
+    background-color: $background;
+    padding: 100px 0;
+
+    & .about {
+        margin: 0;
+        margin-bottom: 57px;
+    }
+
+    &__wrapper {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    &__img{
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-image: url('../img/play-button.svg');
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            cursor: pointer;
+        }
+    }
+}

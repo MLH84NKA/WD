@@ -1,0 +1,36 @@
+.header {
+    background-color: $background;
+    width: 100%;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 57px 0;
+    }
+
+    &__logo {
+        font-family: 'revalia';
+        font-size: 48px;
+        color: $blue;
+    }
+}
+
+.nav {
+
+    &__list {
+        display: flex;
+        column-gap: 42px;
+    }
+
+    &__list-link {
+        font-family: 'roboto';
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: all .2s linear;
+
+        &:hover {
+            color: #34547A;
+        }
+    }
+}

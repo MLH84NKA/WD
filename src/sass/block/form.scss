@@ -1,0 +1,57 @@
+.form{
+    background: $background;
+    padding: 100px 0;
+    &__wrapper{
+        margin: 0 auto;
+        max-width: 540px;
+    }
+    &__title{
+        font-weight: 500;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__body{
+        color: $gray;
+        text-align: center;
+        margin-bottom: 65px;
+    }
+    &__text{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    &__message{
+        margin-bottom: 50px;
+    }
+    &__submit{
+        display: flex;
+        justify-content: center;
+    }
+}   
+    .submit{
+        background-color: $blue;
+        width: 190px;
+        height: 55px;
+        color: white;
+        font-family: 'roboto';
+        font-size: 16px;
+        border: none;
+        cursor: pointer ;
+    }
+
+
+
+.input-text{
+    width: 255px;
+    height: 50px;
+    padding: 0 20px;
+    color: #5F5D5D;
+    font-family: roboto;
+}
+.input-message{
+    width: 100%;
+    min-height: 175px;
+    padding-top: 17px;
+    resize: none;
+}

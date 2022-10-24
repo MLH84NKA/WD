@@ -1,0 +1,10 @@
+footer.footer 
+    .footer__wrapper 
+        .footer__rights
+            .footer__name Иванов Иван   
+            p.footer__safe (с) 2018. Все права защищены.
+        ul.footer-links
+            - for(var i = 0; i<3; i++)
+                li.footer-links__item 
+                    a.footer-links__link(href='/')
+                        img(src="img/vklogo.png", alt="vklogo")

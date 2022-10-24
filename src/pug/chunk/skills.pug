@@ -1,0 +1,16 @@
+mixin ability(name)
+    li.attainments__item= name
+        .progress-bar 
+            .progress-bar__subbar 
+
+
+section.skills
+    .container 
+        .skills__wrapper 
+            .attainments
+                .attainments__title Мои навыки
+                ul.attainments__list
+                    -for(var i=0; i<3; i++) 
+                        +ability('Adobe Photoshop')
+            .skills__photo 
+                img(class='skills__image' src="/img/photo.jpg", alt="photo")

@@ -1,0 +1,39 @@
+.description {
+    background: $background; 
+    padding-top: calc(140px - 57px);
+    padding-bottom: 146px;
+
+    &__wrap {
+        display: flex;
+        justify-content:center;
+        column-gap: 130px;
+        align-items: center;
+    }
+}
+
+.description-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    &__title {
+        font-size: 48px;
+        font-weight: 500;
+    }
+
+    &__button {
+        max-width: 225px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        background-color: $blue;
+        color: white;
+        cursor: pointer;
+    }
+    &__body {
+        color: #727272;
+        max-width: 540px;
+    }
+}
+

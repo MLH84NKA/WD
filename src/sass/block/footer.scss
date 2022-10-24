@@ -1,0 +1,23 @@
+.footer{
+    background-color: $blue;
+    padding: 50px 0 ;
+    color: white;
+
+    &__wrapper{
+        width: 1125px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__name{
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 21px;
+    }
+}
+.footer-links{
+    display: flex;
+    column-gap: 20px;
+}

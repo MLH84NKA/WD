@@ -1,0 +1,16 @@
+mixin header-link(title) 
+	li.nav__list-item 
+		a.nav__list-link(href="/")= title
+
+
+header.header
+	.container 
+		.header__wrapper
+			.header__logo  WD
+				
+			nav.header__nav.nav
+				ul.nav__list
+					each item in link
+						+header-link(item.name)
+
+
